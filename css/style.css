@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+    --strong-cyan: hsl(172, 67%, 45%);
+    --very-dark-cyan: hsl(183, 100%, 15%);
+    --dark-grayish-cyan: hsl(186, 14%, 43%);
+    --grayish-cyan: hsl(184, 14%, 56%);
+    --light-grayish-cyan: hsl(185, 41%, 84%);
+    --very-light-grayish-cyan: hsl(189, 41%, 97%);
+    --white: hsl(0, 0%, 100%);
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Space Mono', monospace;
+    background-color: var(--light-grayish-cyan);
+    height: 100vh;
+    width: 100%;
+}
+
+.logo {
+    text-align: center;
+    margin-top: 1.7rem;
+    margin-bottom: 2.3rem;
+}
+
+.tip-calculator {
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    border-radius: 1.4rem 1.4rem 0 0;
+}
+
+label {
+    color: var(--dark-grayish-cyan);
+    font-weight: 700;
+    margin-bottom: 0.3rem;
+}
+
+input {
+    border: none;
+    outline: none;
+    padding: .3125rem;
+    padding-right: 1.125rem;
+    background-position: 1.0625rem .9375rem;
+    background-repeat: no-repeat;
+    background-color: var(--very-light-grayish-cyan);
+    text-align: right;
+    font-size: 1.5rem;
+    color: var(--very-dark-cyan);
+    font-weight: 700;
+    font-family: 'Space Mono', monospace;
+}
+
+
+
