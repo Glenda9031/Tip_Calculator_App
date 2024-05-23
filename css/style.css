@@ -25,40 +25,7 @@ body {
     width: 100%;
 }
 
-.logo {
-    text-align: center;
-    margin-top: 1.7rem;
-    margin-bottom: 2.3rem;
-}
 
-.tip-calculator {
-    background-color: var(--white);
-    display: flex;
-    flex-direction: column;
-    padding: 2rem;
-    border-radius: 1.4rem 1.4rem 0 0;
-}
-
-label {
-    color: var(--dark-grayish-cyan);
-    font-weight: 700;
-    margin-bottom: 0.3rem;
-}
-
-input {
-    border: none;
-    outline: none;
-    padding: .3125rem;
-    padding-right: 1.125rem;
-    background-position: 1.0625rem .9375rem;
-    background-repeat: no-repeat;
-    background-color: var(--very-light-grayish-cyan);
-    text-align: right;
-    font-size: 1.5rem;
-    color: var(--very-dark-cyan);
-    font-weight: 700;
-    font-family: 'Space Mono', monospace;
-}
 
 
 
