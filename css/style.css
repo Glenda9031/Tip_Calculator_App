@@ -59,5 +59,116 @@ label {
     font-size: .9375rem;
 }
 
+main #main-left,
+main #main-right {
+    display: flex;
+    flex-direction: column;    
+}
+
+main #main-left {
+    gap: 2rem;
+}
+
+main #main-left input {
+    margin-top: 0.3rem;
+    text-align: end;
+    border: transparent;
+    background: var(--very-light-grayish-cyan);
+    padding: 0.5rem 0.4rem;
+    cursor: pointer;
+}
+
+@media (min-width: 25.0625rem) {
+    main #main-left input:focus {
+        outline: none;
+    }
+}
+
+main #main-left input:focus  {
+    border: 1px solid var(--strong-cyan);
+}
+
+/* Stack Overflow */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance:none;
+    margin: 3px;
+}
+
+input[type=number] {
+    -moz-appearance:textfield; /* Firefox */
+}
+
+#bill,
+#number-people {
+    display: flex;
+    position: relative;
+}
+
+#bill input,
+#number-people input {
+    flex: 1;
+    color: var(--very-dark-cyan);
+}
+
+#bill img,
+#number-people img {
+    width:v .9375rem;
+    aspect-ratio: 1/1;
+    position: absolute;
+    top: .9375rem;
+    left: 1rem;
+}
+
+main #main-left-middle .percentage-choice {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: .625rem;
+    width: 100%;
+}
+
+main #main-left-middle p {
+    margin-bottom: 0.5rem;
+}
+
+.button {
+    background-color: var(--very-dark-cyan);
+    color: var(--white);
+    border: none;
+    border-radius: .5rem;
+    padding: .625rem;
+    width: 100%;
+    cursor: pointer;
+}
+
+.button:hover,
+.button:active {
+    background-color: var(--strong-cyan);
+    color: var(--very-dark-cyan);
+}
+
+main #main-left-middle input {
+    width: 100%;
+    padding: .625rem;
+    border-radius: .5rem;
+    text-align: center;
+}
+
+main #main-left #main-left-bottom {
+    font-size: .8125rem;
+}
+
+main #main-left #main-left-bottom #people-information {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+
 
 
