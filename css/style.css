@@ -165,6 +165,96 @@ main #main-left #main-left-bottom #people-information {
     align-items: center;
 }
 
+main #main-right {
+    gap: 3rem;
+    padding: 1rem;
+    background-color: var(--very-dark-cyan);
+    border-radius: .625rem;
+}
+
+main #main-right-top,
+main #main-right-middle [
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+]
+
+.tip-person {
+    font-size: .8125rem;
+    color: var(--white);
+}
+
+.person {
+    font-size: .625rem;
+    color: var(--white);
+    opacity: .5;
+}
+
+.tip-total {
+    display: flex;
+    align-items: center;
+    position: relative;
+    font-size: 1.875rem;
+    color: var(--strong-cyan);
+}
+
+#main-right #button-reset {
+    background-color: var(--strong-cyan);
+    color: var(--very-dark-cyan);
+    border: none;
+    border-radius: .625rem;
+    padding: .625rem;
+    width: 100%;
+    cursor: pointer;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    margin-top: 1.5rem;
+}
+
+#main-right #button-reset:hover,
+#main-right #button-reset:active {
+    background-color: var(--very-light-grayish-cyan);
+    color: var(--strong-cyan);
+    border: 0.1rem solid var(--strong-cyan);
+}
+
+.has-reset-activated {
+    background-color: var(--strong-cyan);
+    color: var(--very-dark-cyan);
+}
+
+@media (max-width: 50rem) {
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 25rem) {
+    #main-left,
+    #main-right {
+        width: 100%;
+    }
+
+    main #main-left-middle .percentage-choice {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+    }
+
+    main #main-left-middle input,
+    button {
+        width: 45%;
+        padding: .625rem;
+    }
+}
+
+@media (max-width: 18.75rem) {
+    main #main-left-middle input,
+    button {
+        width: 100%;
+    }
+}
 
 
 
