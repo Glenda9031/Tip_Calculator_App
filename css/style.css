@@ -179,13 +179,13 @@ main #main-right-middle [
     align-items: center;
 ]
 
-.tip-person {
+.person {
     font-size: .8125rem;
     color: var(--white);
 }
 
 .person {
-    font-size: .625rem;
+    font-size: .75rem;
     color: var(--white);
     opacity: .5;
 }
